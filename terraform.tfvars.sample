@@ -1,0 +1,8 @@
+subnetwork                     = "default"
+compute_engine_service_account = "PathToYourServiceAccountFile.json"
+ip_range_services              = "default-gke-01-services"
+ip_range_pods                  = "default-gke-01-pods"
+network                        = "default"
+project_id                     = "YourGcpProjectId"
+region                         = "us-central1"
+zones                          = ["us-central1-a", "us-central1-b", "us-central1-f"]
